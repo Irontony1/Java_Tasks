@@ -31,14 +31,9 @@ public class Main {
         int j = 0;
         StringBuilder sb = new StringBuilder();
 
-        while(i + j < w1 + w2) {
-            if (i < w1) {
+        while(i < w1 && j < w2) {
                 sb.append(word1.charAt(i++));
-            }
-
-            if (j < w2) {
                 sb.append(word2.charAt(j++));
-            }
         }
 
         return sb.toString();
@@ -46,15 +41,13 @@ public class Main {
 
     public static int removeElement(int[] nums, int val) {
         int counter = 0;
-
-        int i;
-        for(i = 0; i < nums.length; ++i) {
+        for(int i = 0; i < nums.length; ++i) {
             if (val != nums[i]) {
                 nums[counter++] = nums[i];
             }
         }
 
-        for(i = counter; i < nums.length; ++i) {
+        for(int i = counter; i < nums.length; ++i) {
             nums[i] = val;
         }
 

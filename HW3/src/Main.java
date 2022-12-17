@@ -1,5 +1,8 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
+import java.util.SortedMap;
 
 
 public class Main {
@@ -8,10 +11,13 @@ public class Main {
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 2, 4, 5));
         System.out.println(equalList(list1, list2)); */
-
+        /* Задача 2
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(5, 5, 9, 8, 4, 5, 0));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(5, 5, 2, 5, 4));
-        System.out.println(findNumCount(list1, list2, 5));
+        System.out.println(findNumCount(list1, list2, 5)); */
+
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10, 4, 5, 6, 7, 2, 2, 9));
+        System.out.println(sortEven(list1));
 
     }
 
@@ -48,4 +54,25 @@ public class Main {
         }
         return count == 0;
     }
+
+    //На вход приходит ArrayList<Integer>. Отсортируйте в нем только четные числа.
+    //Пример: [10, 4, 5, 6, 7, 2, 2, 9] -> [2, 2, 5, 4, 7, 6, 10, 9]
+    public static ArrayList<Integer> sortEven(ArrayList<Integer> list1) {
+        ArrayList<Integer> even = new ArrayList<>(); //
+        int j = 0;
+        for (Integer integer : list1) {
+            if (integer % 2 == 0) {
+                even.add(integer);
+            }
+        }
+        Collections.sort(even);
+        for (int i = 0; i < list1.size(); i++) {
+            if (list1.get(i) % 2 == 0) {
+                list1.set(i,even.get(j));
+                j++;
+            }
+        }
+        return list1;
+    }
 }
+

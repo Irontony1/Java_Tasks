@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="equalList">
+    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="findNumCount">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW1/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW1/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -91,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671298891577</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="findNumCount">
+      <created>1671302712938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1671302712938</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -99,6 +107,7 @@
     <MESSAGE value="maxAreaOfIsland" />
     <MESSAGE value="floodFill" />
     <MESSAGE value="equalList" />
-    <option name="LAST_COMMIT_MESSAGE" value="equalList" />
+    <MESSAGE value="findNumCount" />
+    <option name="LAST_COMMIT_MESSAGE" value="findNumCount" />
   </component>
 </project>
