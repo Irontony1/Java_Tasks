@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="maxAreaOfIsland">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="floodFill" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -71,12 +68,20 @@
       <option name="project" value="LOCAL" />
       <updated>1671141981338</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="floodFill">
+      <created>1671142626395</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1671142626395</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="re -creation repo" />
     <MESSAGE value="maxAreaOfIsland" />
-    <option name="LAST_COMMIT_MESSAGE" value="maxAreaOfIsland" />
+    <MESSAGE value="floodFill" />
+    <option name="LAST_COMMIT_MESSAGE" value="floodFill" />
   </component>
 </project>

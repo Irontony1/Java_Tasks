@@ -9,20 +9,20 @@ public class Main {
 //        boolean out_task1 = isSymmetric(tr);
 
         // Вызов задачи 2
-        int[][] input_task2 = {{0,0,1,0,0,0,0,1,0,0,0,0,0},
-                               {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                               {0,1,1,0,1,0,0,0,0,0,0,0,0},
-                               {0,1,0,0,1,1,0,0,1,0,1,0,0},
-                               {0,1,0,0,1,1,0,0,1,1,1,0,0},
-                               {0,0,0,0,0,0,0,0,0,0,1,0,0},
-                               {0,0,0,0,0,0,0,1,1,1,0,0,0},
-                               {0,0,0,0,0,0,0,1,1,0,0,0,0}};
+        int[][] input_task2 = {{0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 1, 1, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 0, 1, 0, 0},
+                {0, 1, 0, 0, 1, 1, 0, 0, 1, 1, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 0, 0, 0},
+                {0, 0, 0, 0, 0, 0, 0, 1, 1, 0, 0, 0, 0}};
         int out_task2 = maxAreaOfIsland(input_task2);
         System.out.println(out_task2);
 
         // Вызов задачи 3
-        int[][] input_task3 = {{1,1,1},{1,1,0},{1,0,1}};
-        int[][] out_task3 = floodFill(input_task3,1,1,2);
+        int[][] input_task3 = {{1, 1, 1}, {1, 1, 0}, {1, 0, 1}};
+        int[][] out_task3 = floodFill(input_task3, 1, 1, 2);
         System.out.println(Arrays.deepToString(out_task3).replace("], ", "]\n"));
 
     }
@@ -32,7 +32,9 @@ public class Main {
 //    }
 
 //    private static boolean SymmetricStep(TreeNode r1, TreeNode r2) {
-//        if (r1 == null && r2 == null) return true;
+//        if (r1 == null && r2 == null) {
+//          return true;
+//        }
 //        return r1 != null && r2 != null && r1.val == r2.val && SymmetricStep(r1.left, r2.right) && SymmetricStep(r1.right, r2.left);
 //    }
 
@@ -48,6 +50,7 @@ public class Main {
         }
         return count;
     }
+
     private static int dfs(int i, int j, int[][] grid) {
         if (i < 0 || j < 0 || i >= grid.length || j >= grid[0].length || grid[i][j] == 0) {
             return 0;
@@ -59,7 +62,7 @@ public class Main {
 
     // Задача 3
     public static int[][] floodFill(int[][] image, int sr, int sc, int color) {
-        if(image[sr][sc] != color) {
+        if (image[sr][sc] != color) {
             dfs(image, sr, sc, color, image[sr][sc]);
         }
         return image;
