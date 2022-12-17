@@ -1,8 +1,5 @@
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.SortedMap;
+import java.util.*;
 
 
 public class Main {
@@ -11,13 +8,20 @@ public class Main {
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 2, 4, 5));
         System.out.println(equalList(list1, list2)); */
+
         /* Задача 2
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(5, 5, 9, 8, 4, 5, 0));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(5, 5, 2, 5, 4));
         System.out.println(findNumCount(list1, list2, 5)); */
 
+        /* Задача 3
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10, 4, 5, 6, 7, 2, 2, 9));
-        System.out.println(sortEven(list1));
+        System.out.println(sortEven(list1)); */
+
+        /* Задача 4
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(10, 18, 1, 35, 7, 8, 6, 9, 12));
+        System.out.println(saveOdd(list1)); */
+
 
     }
 
@@ -68,11 +72,18 @@ public class Main {
         Collections.sort(even);
         for (int i = 0; i < list1.size(); i++) {
             if (list1.get(i) % 2 == 0) {
-                list1.set(i,even.get(j));
+                list1.set(i, even.get(j));
                 j++;
             }
         }
         return list1;
     }
+
+    //На вход приходт ArrayList<Integer> удалите из него четные числа (на итератор)
+    public static ArrayList<Integer> saveOdd(ArrayList<Integer> list1) {
+        list1.removeIf(integer -> integer % 2 == 0);
+        return list1;
+    }
+
 }
 
