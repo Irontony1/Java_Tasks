@@ -1,16 +1,18 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Iterator;
 
-import static java.util.Arrays.*;
 
 public class Main {
     public static void main(String[] args) {
+        /* Задача 1
         ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
         ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(1, 2, 2, 4, 5));
-        boolean out = equalList(list1, list2);
+        System.out.println(equalList(list1, list2)); */
 
-        System.out.println(out);
+        ArrayList<Integer> list1 = new ArrayList<>(Arrays.asList(5, 5, 9, 8, 4, 5, 0));
+        ArrayList<Integer> list2 = new ArrayList<>(Arrays.asList(5, 5, 2, 5, 4));
+        System.out.println(findNumCount(list1, list2, 5));
+
     }
 
     //На вход приходят два ArrayList<Integer> напишите метод, который проверяет два массива на равенство.
@@ -30,5 +32,20 @@ public class Main {
         }
     }
 
-
+    // На вход методу приходят два ArrayList<Integer> и целое число num.
+    // Проверьте, что число num встречается в обоих массивах одинаковое кол-во раз.
+    public static boolean findNumCount(ArrayList<Integer> list1, ArrayList<Integer> list2, int num) {
+        int count = 0;
+        for (Integer i : list1) {
+            if (i == num) {
+                count++;
+            }
+        }
+        for (Integer i : list2) {
+            if (i == num) {
+                count--;
+            }
+        }
+        return count == 0;
+    }
 }
