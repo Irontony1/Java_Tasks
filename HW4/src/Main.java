@@ -4,11 +4,9 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        /* Задача 1 */
+        /* Задача 1
         String s = "/home/foo/.//name";
-        System.out.println(simplifyPath(s));
-
-
+        System.out.println(simplifyPath(s)); */
 
     }
 
