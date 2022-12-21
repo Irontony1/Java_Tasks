@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="sortEven">
+    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="saveOdd">
+      <change afterPath="$PROJECT_DIR$/HW3/HW3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/HW4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW4/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +49,24 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "19"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW4" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -105,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671307170563</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="saveOdd">
+      <created>1671307809900</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1671307809901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -115,6 +142,7 @@
     <MESSAGE value="equalList" />
     <MESSAGE value="findNumCount" />
     <MESSAGE value="sortEven" />
-    <option name="LAST_COMMIT_MESSAGE" value="sortEven" />
+    <MESSAGE value="saveOdd" />
+    <option name="LAST_COMMIT_MESSAGE" value="saveOdd" />
   </component>
 </project>
