@@ -1,4 +1,5 @@
 import javax.swing.tree.TreeNode;
+import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
@@ -34,8 +35,11 @@ public class Main {
         root2.left.right = new Task3.TreeNode(3);
         root2.right.right = new Task3.TreeNode(3);
         System.out.println(Task3.isSymmetric(root));
+        
+        /*Задача 4*/
+        int[][] mat = {{0,0,0},{0,1,0},{1,1,1}};
+        System.out.println(Arrays.deepToString(Task4.updateMatrix(mat)));
     }
-
 }
 
 
