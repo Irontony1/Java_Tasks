@@ -4,17 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="updateMatrix">
+    <list default="true" id="355d5ee3-27ec-44df-a164-5642bea6ee02" name="Changes" comment="findDuplicate">
       <change afterPath="$PROJECT_DIR$/HW3/HW3.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW5/HW5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW5/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HW5/src/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW6/HW6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW6/src/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW6/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HW6/src/Reader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW2/src/Custom/TreeNode.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/HW2/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW2/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW3/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/src/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HW4/src/Task3.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW4/src/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW5/src/Task1.java" beforeDir="false" afterPath="$PROJECT_DIR$/HW5/src/Task1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +62,17 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Main (1)">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="HW5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="HW6" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -76,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main" />
       </list>
@@ -181,7 +192,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671711772844</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="countWords">
+      <created>1671806207050</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1671806207050</updated>
+    </task>
+    <task id="LOCAL-00015" summary="findDuplicate">
+      <created>1671809007391</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1671809007391</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -196,6 +221,8 @@
     <MESSAGE value="maxAreaOfIsland with stack" />
     <MESSAGE value="isSymmetric with stack" />
     <MESSAGE value="updateMatrix" />
-    <option name="LAST_COMMIT_MESSAGE" value="updateMatrix" />
+    <MESSAGE value="countWords" />
+    <MESSAGE value="findDuplicate" />
+    <option name="LAST_COMMIT_MESSAGE" value="findDuplicate" />
   </component>
 </project>
